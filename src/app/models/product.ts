@@ -4,7 +4,10 @@ export interface Product {
   id: number;
   name: string;
   description: string;
-  price: number;     
+  price: number;
   stock: number;
-  category: Category;
+  category: {
+    id: number;
+    name: string;
+  };
 }

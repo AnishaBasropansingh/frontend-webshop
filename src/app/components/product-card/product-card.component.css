@@ -1,0 +1,26 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    background: white;
+  }
+  
+  .product-info h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .description {
+    color: #666;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #e91e63;
+  }
+  
+  .stock {
+    font-size: 0.8em;
+    color: #666;
+  }
